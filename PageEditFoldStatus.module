@@ -4,11 +4,11 @@ class PageEditFoldStatus extends WireData implements Module {
 
 	public static function getModuleInfo() {
 		return array(
-			'title'		=> 'Page Edit Fold Status',		// printable name/title of module
-			'version'	=> '0.1', 	// version number of module
-			'summary'	=> 'Uses cookie to remember fold status of fields on page edit', 	// 1 sentence summary of module
-			'href'		=> '', 		// URL to more information (optional)
-			'permanent' => false, 	// true if module is permanent and thus not uninstallable
+			'title'		=> 'Page Edit Fold Status',
+			'version'	=> '0.1',
+			'summary'	=> 'Uses cookie to remember fold status of fields on page edit',
+			'href'		=> '',
+			'permanent' => false,
 			'singular' => true,
 			'autoload' => true
 		); 

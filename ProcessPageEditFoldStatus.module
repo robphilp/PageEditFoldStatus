@@ -4,10 +4,10 @@ class ProcessPageEditFoldStatus extends Process {
 
 	public static function getModuleInfo() {
 		return array(
-			'title'		=> 'Process Page Edit Fold Status',		// printable name/title of module
-			'version'	=> 0.1, 	// version number of module
-			'summary'	=> 'Provides admin page for the "PageEditFoldStatus" module.', 	// 1 sentence summary of module
-			'href'		=> '', 		// URL to more information (optional)
+			'title'		=> 'Process Page Edit Fold Status',
+			'version'	=> '0.1',
+			'summary'	=> 'Provides admin page for the "PageEditFoldStatus" module.',
+			'href'		=> '',
 			'singular' => true,
 			'autoload' => true
 		); 
