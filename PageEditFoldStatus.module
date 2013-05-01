@@ -73,7 +73,7 @@ _END;
 	}
 	
 	public function ___uninstall() {
-		$p = $this->pages->get('template=admin, name=pageditfoldstatus');
+		$p = $this->pages->get('template=admin, name=pageeditfoldstatus');
 		if($p->id) $p->delete();
 	}
 	
