@@ -6,7 +6,7 @@ class PageEditFoldStatus extends WireData implements Module {
 		return array(
 			'title'		=> 'Page Edit Fold Status',
 			'version'	=> '0.1',
-			'summary'	=> 'Uses cookie to remember fold status of fields on page edit',
+			'summary'	=> 'Uses session to remember fold status of fields on page edit',
 			'href'		=> '',
 			'permanent' => false,
 			'singular' => true,
